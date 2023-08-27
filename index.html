@@ -1,47 +1,123 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>8조</title>
 
-    <style>
-      .container {
-        width: 1280px;
-        margin: auto;
-        border: 1px solid red;
-      }
-      .inner1 {
-        /* height: 260px; */
-      }
-      .inner2 {
-        display: flex;
-        justify-content: space-between;
-      }
-      .inner2-1 {
-        width: 830px;
-      }
-      .inner2-2 {
-        width: 420px;
-      }
-    </style>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- <link rel="stylesheet" href="style/yeonjeong2.css"> -->
+  <!-- <link rel="stylesheet" href="/style/_yeonjeong.scss"> -->
+  <!-- <link rel="stylesheet" href="./style/css/_yeonjeong2.css"> -->
+  <link rel="stylesheet" href="style/style.css">
+  <title>8조</title>
 
-    <link rel="stylesheet" href="style/style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="inner1">
-        <div class="one">은진</div>
-        <div class="two">연정</div>
-      </div>
-      <div class="inner2">
-        <div class="three inner2-1">지은</div>
-        <div class="inner2-2">
-          <div class="four">승무</div>
-          <div class="five">예진</div>
-        </div>
+  <style>
+    .container {
+      width: 1280px;
+      margin: auto;
+      border: 1px solid red;
+
+    }
+
+    .inner1 {
+      /* height: 260px; */
+    }
+
+    .inner2 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .inner2-1 {
+      width: 830px;
+    }
+
+    .inner2-2 {
+      width: 420px;
+    }
+  </style>
+
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="inner1">
+      <div class="one">은진</div>
+
+      <div class="two" id="nav">
+        <ul class="service_list">
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon mail"></div>
+              <span class="service_name">메일</span>
+            </a>
+          </li>
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon cafe"></div>
+              <span class="service_name">카페</span>
+            </a>
+          </li>
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon blog"></div>
+              <span class="service_name">블로그</span>
+            </a>
+          </li>
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon shopping"></div>
+              <span class="service_name">쇼핑</span>
+            </a>
+          </li>
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon news"></div>
+              <span class="service_name">뉴스</span>
+            </a>
+          </li>
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon stock"></div>
+              <span class="service_name">증권</span>
+            </a>
+          </li>
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon real"></div>
+              <span class="service_name">부동산</span>
+            </a>
+          </li>
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon map"></div>
+              <span class="service_name">지도</span>
+            </a>
+          </li>
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon webtoon"></div>
+              <span class="service_name">웹툰</span>
+            </a>
+          </li>
+          <li class="service_item">
+            <a href="#" class="service_iconlink">
+              <div class="service_icon more"></div>
+              <span class="blind">바로가기 펼침</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-  </body>
+    <div class="inner2">
+      <div class="three inner2-1">지은</div>
+      <div class="inner2-2">
+        <div class="four">승무</div>
+        <div class="five">예진</div>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
