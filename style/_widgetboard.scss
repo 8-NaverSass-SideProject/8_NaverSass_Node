@@ -1,31 +1,3 @@
-// Reset.css
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-button {
-  border: none;
-  margin: 0;
-  padding: 0;
-  background: transparent;
-  color: inherit;
-  cursor: pointer;
-}
-.blind {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
-
 // memo.css
 .widgetboard {
   padding: 18px;
@@ -128,7 +100,7 @@ button {
         height: 20px;
 
         margin: auto;
-        background-image: url(../img/sp_main.89f0d213.png);
+        background-image: url(../images/sp_main.png);
         background-size: 434px 422px;
         background-position: -315px -368px;
         background-repeat: no-repeat;
