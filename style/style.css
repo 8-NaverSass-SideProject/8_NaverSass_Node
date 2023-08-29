@@ -236,7 +236,7 @@ body {
 .widgetboard__memo {
   position: relative;
   margin-top: 12px;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 0 0 1px #ebebeb, 0 1px 2px 0 rgba(0, 0, 0, 0.04);
 }
@@ -246,7 +246,7 @@ body {
   display: flex;
   padding: 7px 9px;
   border-radius: 8px 8px 0 0;
-  color: #fff;
+  color: #ffffff;
   background-image: linear-gradient(to top, #00b869, #00c772);
 }
 .memo__header::after {
@@ -310,7 +310,7 @@ body {
   font-weight: 500;
   line-height: 38px;
   white-space: nowrap;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
   transform: translateX(-50%);
 }
@@ -385,7 +385,7 @@ body {
   height: 38px;
   border: 1px solid #dadcdf;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   text-decoration: none;
 }
@@ -420,7 +420,7 @@ body {
 }
 .memo__new:hover span {
   display: inline-block;
-  color: #fff;
+  color: #ffffff;
   font-size: 15px;
   font-weight: bold;
   line-height: 39px;
