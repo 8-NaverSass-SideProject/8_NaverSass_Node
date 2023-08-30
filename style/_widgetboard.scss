@@ -72,7 +72,7 @@
   }
 }
 
-.memo__lock {
+.memo__lock-button {
   margin-left: auto;
 
   button {
@@ -108,7 +108,7 @@
     }
 
     // tooltip
-    .memo__tooltip {
+    .memo__lock-button-tooltip {
       display: none;
 
       position: absolute;
@@ -191,7 +191,7 @@
       }
     }
     // star icon active
-    .item__active {
+    .item--active {
       i {
         background-position: -416px -364px;
       }
