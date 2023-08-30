@@ -14,9 +14,8 @@
 
 .widgetboard__title {
   color: $color-selectedTitle;
-  font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 24px;
+
+  @include set-font(Gothic800, 800, $color-selectedTitle, 1.5rem, 24px);
 }
 
 .widgetboard__memo {
@@ -42,9 +41,6 @@
   padding: 7px 9px;
 
   border-radius: 8px 8px 0 0;
-
-  color: $color-white;
-  // font-size: 1.5rem;
 
   background-image: linear-gradient(to top, #00b869, #00c772);
 
@@ -72,8 +68,7 @@
 
     flex-basis: 50%;
 
-    font-weight: 800;
-    line-height: 34px;
+    @include set-font(Gothic800, 800, $color-white, 1.5rem, 34px);
   }
 }
 
@@ -122,11 +117,7 @@
 
       padding: 0 16px;
 
-      color: $color-defaultText;
-      // font-size: 1.3rem;
-      font-size: 13px;
-      font-weight: 500;
-      line-height: 38px;
+      @include set-font(Gothic500, 500, $color-defaultText, 1.3rem, 38px);
       white-space: nowrap;
 
       background-color: $color-white;
@@ -174,12 +165,10 @@
 .memo__item {
   padding: 0 18px;
 
-  // font-size: 1.4rem;
-  line-height: 46px;
+  @include set-font(Gothic500, 500, $color-defaultText, 1.4rem, 46px);
 
   a {
     display: flex;
-    font-weight: 500;
 
     .item__text {
       overflow: hidden;
@@ -263,11 +252,7 @@
     span {
       display: inline-block;
 
-      color: $color-white;
-      font-size: 15px;
-      font-weight: bold;
-      line-height: 39px;
-
+      @include set-font(Gothic600, 600, $color-white, 1.3rem, 39px);
       vertical-align: top;
     }
     &::after {
