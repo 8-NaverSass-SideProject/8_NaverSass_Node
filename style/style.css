@@ -1,3 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
 .one {
   background-color: pink;
 }
@@ -14,66 +169,75 @@
   background: brown;
 }
 
-.four {
-  border: 1px solid #dadcdf;
-  border-radius: 8px;
-  background-color: #fff;
-}
-
 .account {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-.account p {
+  justify-content: stretch;
+  align-items: stretch;
+  border: 1px solid #dadcdf;
+  border-radius: 8px;
+  box-shadow: 0;
+  font-family: gothic, sans-serif;
+  font-weight: 400;
+  color: #101010;
   font-size: 16px;
-  margin: 0px;
+  line-height: 20px;
+  font-style: normal;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 21px 20px 18px;
 }
-.account .login {
+.account .account__login {
+  font-family: gothic, sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(3, 199, 90, 0.12);
   padding: 17px 0px;
   background-color: #03c75a;
-  border-radius: 5px;
-  color: #fff;
   margin: 13px 0px;
-  font-size: 14px;
-  font-weight: bold;
   cursor: pointer;
 }
-.account .login i {
-  background: url(../img/sp_main.89f0d213.png);
+.account .account__login i {
+  background-image: url("../images/sp_main.png");
   background-size: 434px 422px;
   background-position: -120px -166px;
   background-repeat: no-repeat;
-  display: inline-block;
   width: 72px;
-  height: 15px;
-  margin: 2px 1px 0 0;
+  height: 14px;
+  display: inline-block;
+  margin: 3px 8px 0 0;
   vertical-align: top;
 }
-.account .login:hover {
-  filter: brightness(0.95);
+.account .account__login:hover {
+  background-color: #17b75e;
 }
-.account .find {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  cursor: pointer;
-  padding: 0px;
-  margin: 0px;
-  font-size: 14px;
+.account .account__find {
+  font-family: gothic, sans-serif;
+  font-weight: 400;
   color: #606060;
+  font-size: 14px;
+  line-height: underline;
+  font-style: normal;
+  margin: auto;
+  cursor: pointer;
 }
-.account .find li {
-  list-style: none;
+.account .account__find li {
+  display: inline-block;
 }
-.account .find li:nth-child(1)::after,
-.account .find li:nth-child(2)::after {
-  content: "|";
-  color: #d3d5d7;
-  margin: 0px 12px;
+.account .account__find li:not(last-child)::after {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background-color: #d3d5d7;
+  margin: 4px 12px 0;
+  vertical-align: top;
 }
-.account .find li:hover {
+.account .account__find li:hover {
   text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
