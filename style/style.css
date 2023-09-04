@@ -279,15 +279,15 @@ body {
   font-style: normal;
 }
 
-.memo__lock {
+.memo__lock-button {
   margin-left: auto;
 }
-.memo__lock button {
+.memo__lock-button button {
   position: relative;
   width: 38px;
   height: 34px;
 }
-.memo__lock button i {
+.memo__lock-button button i {
   position: relative;
   display: inline-block;
   width: 28px;
@@ -295,7 +295,7 @@ body {
   border-radius: 50%;
   background-color: #00b266;
 }
-.memo__lock button i::before {
+.memo__lock-button button i::before {
   content: "";
   position: absolute;
   top: 0;
@@ -310,7 +310,7 @@ body {
   width: 20px;
   height: 20px;
 }
-.memo__lock button .memo__tooltip {
+.memo__lock-button button .memo__lock-button-tooltip {
   display: none;
   position: absolute;
   top: 38px;
@@ -329,7 +329,7 @@ body {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
   transform: translateX(-50%);
 }
-.memo__lock button .memo__tooltip::after {
+.memo__lock-button button .memo__lock-button-tooltip::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -342,10 +342,10 @@ body {
   height: 11px;
   transform: translateX(-50%) rotate(180deg);
 }
-.memo__lock button:hover i {
+.memo__lock-button button:hover i {
   background-color: #009e5a;
 }
-.memo__lock button:hover .memo__tooltip {
+.memo__lock-button button:hover .memo__tooltip {
   display: block;
 }
 
@@ -387,7 +387,7 @@ body {
   width: 16px;
   height: 16px;
 }
-.memo__item a .item__active i {
+.memo__item a .item--active i {
   background-position: -416px -364px;
 }
 .memo__item a .item__date {
