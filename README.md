@@ -1,9 +1,11 @@
-# 8_NaverSass - 멋사 8조 github, Sass 프로젝트
+# 8_NaverSass - 멋사 8조 github, Sass 프로젝트 cnrk
 
 ## 목표
 
 - github를 활용해서 협업 경험하기
-- Sass 사용해서 협업 경험하기
+- SaSS 및 BEM 컨벤션 적용해보기
+- Javascript와 Node.js를 사용해보기
+- 여러 개발 툴 (Postmen, MongoDB등)과 친해지기
 
 ---
 
